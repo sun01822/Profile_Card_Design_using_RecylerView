@@ -5,4 +5,4 @@ I have implemented a RecyclerView with custom onClickListener interface for this
 
 
 
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/75157104/236687286-ca4ad0dd-d497-462a-b0e0-4d2ed6311656.gif)
+![profile_card](https://user-images.githubusercontent.com/75157104/236687917-352068d2-c78d-4ca7-8a66-b7d36ba16128.gif)
