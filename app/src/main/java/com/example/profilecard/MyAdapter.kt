@@ -54,5 +54,4 @@ class MyAdapter(private val data: ArrayList<MyModelClass>) : RecyclerView.Adapte
     interface OnClickListener {
         fun onClick(index:Int, model: MyModelClass)
     }
-
 }
