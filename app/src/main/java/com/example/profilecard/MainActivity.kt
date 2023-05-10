@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         val adapter = MyAdapter(data.dataSource)
         recyclerView.adapter = adapter
+
         adapter.setOnClickListener(object: MyAdapter.OnClickListener{
             override fun onClick(index: Int, model: MyModelClass) {
                 val intent = Intent(this@MainActivity, DetailScreen::class.java)
@@ -38,5 +39,6 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+
     }
 }

@@ -11,4 +11,5 @@ data class MyModelClass(
     var rank: String? = null,
     var downloads: String? = null,
     var description: String? = null,
+    var follow:String ? = null,
 )
